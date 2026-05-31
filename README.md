@@ -23,7 +23,7 @@ The installer adds small shell functions so you never have to set the variable b
 ## Quickstart
 
 ```bash
-git clone https://github.com/<owner>/claude-two-profiles.git
+git clone https://github.com/boothy1021-bot/claude-two-profiles.git
 cd claude-two-profiles
 
 # macOS / Linux
