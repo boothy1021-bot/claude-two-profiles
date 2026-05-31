@@ -4,6 +4,8 @@ Run **multiple isolated Claude Code profiles** on one machine and switch between
 command. Ships ready-to-go **`work`** and **`personal`** profiles, and lets you spin up as many more
 as you like — each with its own MCP servers, plugins, skills, memory, permissions, and login.
 
+![claude-two-profiles demo](assets/demo.gif)
+
 Great for keeping work and personal contexts cleanly separated (different tools, different rules,
 even different Claude accounts), or giving each client/project its own sandbox.
 
