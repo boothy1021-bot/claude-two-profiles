@@ -70,6 +70,12 @@ adds a few functions to your shell rc. Plain `claude` keeps using your default c
 (stored inside its own directory). You can sign every profile into the **same** Claude account
 (usage just pools under that subscription), or use different accounts. They don't share a session.
 
+**Does each profile keep its own history, memory, and projects?** Yes. The whole config directory
+is per-profile, so each one has its own `projects/` (session transcripts + memory), command history,
+todos, and resume data. Note that's Claude's *per-project state*, not your code — your repos live on
+disk and are shared across profiles. Open the same repo under two profiles and each keeps separate
+memory and history for it (no cross-contamination).
+
 **Does my setup sync to another computer?** No — profiles, plugins, and CLIs are local to each
 machine. Clone this repo there and run the installer again to reproduce the structure.
 
